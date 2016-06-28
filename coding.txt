@@ -1,0 +1,17 @@
+Program pengolahan_Data_Nilai;
+
+Uses CRT;
+var NIM : String;
+Nm : String;
+nh : Char;
+tgs, ut, uas, tot : Real;
+Begin
+ClrScr;
+write('       MASUKAN DATA MAHASISWA            ');
+writeln();
+write('NIM           : '); readln(NIM);
+Write('NAMA          : '); Readln(Nm);
+Write('Nilai Tugas   : '); Readln(tgs);
+Write('Nilai UT      : '); Readln(ut);
+Write('Nilai UAS     : '); Readln(uas);
+tot := 0.2*tgs + 0.3*ut + 0.5*uas;

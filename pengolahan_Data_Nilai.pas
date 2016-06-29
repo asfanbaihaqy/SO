@@ -1,4 +1,4 @@
-Program pengolahan_Data_Nilai;
+Program pengolahan_Data;
 
 Uses CRT;
 var NIM : String;

@@ -3,7 +3,7 @@ Program pengolahan_Data_Nilai;
 Uses CRT;
 var NIM : String;
 Nm : String;
-nh : Char;
+nh : string;
 tgs, ut, uas, tot : Real;
 Begin
 ClrScr;
